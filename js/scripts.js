@@ -31,7 +31,7 @@ $(document).ready(function() {
       $(".trippy").fadeIn(5000);
     }
      else {
-      alert("Please answer all of the questions!.");
+      alert("Please answer all of the questions!");
     }
     $(".insert").text(name);
   });
