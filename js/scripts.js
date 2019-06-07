@@ -18,7 +18,7 @@ $(document).ready(function() {
       $(".csharp, .swift").hide();
     } else if (match < 14) {
       $(".swift").show();
-      $(".javascript, .csharp,").hide();
+      $(".javascript, .csharp").hide();
     } else if (match < 16) {
       $(".swift, .javascript, .csharp,").hide();
     } else {
