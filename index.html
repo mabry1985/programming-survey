@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Programming Survey</title>
   </head>
-  <body img class="trippy" src="img/trippy.jpg" alt="psychedelic image">
+  <body>
+    <img class="trippy" src="img/trippy.jpg" alt="psychedelic image">
     <div class="container">
       <h1>So you want to be a programmer?</h1>
       <p>Take our survey to find out which programming language is a good fit for you.</p>
@@ -62,18 +63,18 @@
             </div>
             <div class="form-group">
               <label>If I told you that you had a nice body, would you hold it against me?</label>
-              <select class="form-control" type="text">
+              <select id="question5" class="form-control" type="text">
                 <option disabled selected value>--select an option--</option>
-                <option>Yes</option>
-                <option>No</option>
-                <option>Go home Josh, you're drunk.</option>
+                <option value ="0">Yes</option>
+                <option value ="0">No</option>
+                <option value="1">Go home Josh, you're drunk.</option>
               </select>
             </div>
             <button type="submit" class="btn">Submit</button>
           </form>
         </div>
         <div class="col-md-8">
-          <div class="csharp">
+          <div class="jumbotron csharp">
           <h1><span class="insert"></span>, it looks like you would enjoy learning C#.</h1>
           <p>This general-purpose language was originally designed by Microsoft to be used for developing apps on the Microsoft platform, and C# developers love the language for being pleasant to use and well-designed. If you want to build apps for the Microsoft platform, you should naturally learn C#.
           <br>
@@ -81,17 +82,21 @@
           Finally, C# is often the recommended language to use when making games through the Unity Game engine.</p>
           </div>
 
-          <div class="javascript">
+          <div class="jumbotron javascript">
           <h1><span class="insert"></span>, it looks like you would enjoy learning Javascript.</h1>
           <p>JavaScript (JS) is a lightweight interpreted or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles.<p>
           </div>
 
-          <div class="swift">
+          <div class="jumbotron swift">
           <h1><span class="insert"></span>, it looks like you would enjoy learning Swift.</h1>
           <p>Swift is a powerful and intuitive programming language for macOS, iOS, watchOS, tvOS and beyond. Writing Swift code is interactive and fun, the syntax is concise yet expressive, and Swift includes modern features developers love. Swift code is safe by design, yet also produces software that runs lightning-fast.</p>
           </div>
+
+          <div class="jumbotron wtf">
+            <h1>Ummmmm, <br> WTF?</h1>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
   </body>
 </html>

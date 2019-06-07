@@ -1,14 +1,16 @@
-.csharp, .javascript, .swift {
+.csharp, .javascript, .swift, .wtf {
   display: none;
-  max-width: 300px;
-  /* border: 1px solid black; */
-
+  max-width: 500px;
+  padding: 5px;
+  text-align: center;
 }
 
 #formOne {
   max-width: 300px;
-  /* border: 1px solid black; */
+}
 
+.name {
+  color: black;
 }
 
 .form-group {
@@ -20,15 +22,18 @@
   margin-bottom: 20px;
 }
 
-
 .trippy {
   animation: colorRotate 3s linear infinite;
   width: 100%;
+  display: none;
 }
-
 
 @keyframes colorRotate {
   100% {
     -webkit-filter: hue-rotate(360deg);
   }
+}
+
+.pink {
+  background-color: pink;
 }

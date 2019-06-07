@@ -7,9 +7,12 @@ $(document).ready(function() {
     var question2 = parseInt($("#question2").val());
     var question3 = parseInt($("#question3").val());
     var question4 = parseInt($("#question4").val());
+    var question5 = parseInt($("#question5").val());
 
-    var match = question1 + question2 + question3 + question4;
+    var match = question1 + question2 + question3 + question4 + question5;
+
     console.log(match);
+
     if (match < 6) {
       $(".csharp").fadeIn(500);
       $(".javascript, .swift").hide();
@@ -21,7 +24,13 @@ $(document).ready(function() {
       $(".javascript, .csharp").hide();
     } else if (match <= 16) {
       $(".swift, .javascript, .csharp").hide();
-    } else {
+      $(".wtf").fadeIn();
+    } else if (match > 16) {
+      $(".swift, .javascript, .csharp, .container").hide();
+      $("body").addClass("pink");
+      $(".trippy").fadeIn(5000);
+    }
+     else {
       alert("There was an error, please try again.");
     }
 
