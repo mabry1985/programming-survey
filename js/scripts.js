@@ -15,31 +15,24 @@ $(document).ready(function() {
 
     if (match < 6) {
       $(".csharp").fadeIn(500);
-      $(".javascript, .swift").hide();
+      $(".javascript, .swift, .main-image").hide();
     } else if (match < 10) {
       $(".javascript").fadeIn(500);
-      $(".csharp, .swift").hide();
+      $(".csharp, .swift, .main-image").hide();
     } else if (match < 14) {
       $(".swift").fadeIn();
-      $(".javascript, .csharp").hide();
+      $(".javascript, .csharp .main-image").hide();
     } else if (match <= 16) {
-      $(".swift, .javascript, .csharp").hide();
+      $(".swift, .javascript, .csharp .main-image").hide();
       $(".wtf").fadeIn();
     } else if (match > 16) {
-      $(".swift, .javascript, .csharp, .container").hide();
+      $("nnnnnn.container").hide();
       $("body").addClass("pink");
       $(".trippy").fadeIn(5000);
     }
      else {
       alert("There was an error, please try again.");
     }
-
-
-
-
-
-
     $(".insert").text(name);
-
   });
 });
