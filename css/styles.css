@@ -1,9 +1,18 @@
 .csharp, .javascript, .swift {
   display: none;
+  max-width: 300px;
+  /* border: 1px solid black; */
+
+}
+
+#formOne {
+  max-width: 300px;
+  /* border: 1px solid black; */
+
 }
 
 .form-group {
-  max-width: 30%;
+  max-width: 80%;
   margin-left:10px;
 }
 

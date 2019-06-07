@@ -11,16 +11,16 @@ $(document).ready(function() {
     var match = question1 + question2 + question3 + question4;
     console.log(match);
     if (match < 6) {
-      $(".csharp").show();
+      $(".csharp").fadeIn(500);
       $(".javascript, .swift").hide();
     } else if (match < 10) {
-      $(".javascript").show();
+      $(".javascript").fadeIn(500);
       $(".csharp, .swift").hide();
     } else if (match < 14) {
-      $(".swift").show();
+      $(".swift").fadeIn();
       $(".javascript, .csharp").hide();
-    } else if (match < 16) {
-      $(".swift, .javascript, .csharp,").hide();
+    } else if (match <= 16) {
+      $(".swift, .javascript, .csharp").hide();
     } else {
       alert("There was an error, please try again.");
     }
