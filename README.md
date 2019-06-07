@@ -6,17 +6,18 @@
 
 ## Description
 
-_A survey that recieves data from the user and outputs either C#, Javascript, or Swift, depending on the answers the user selects._
+_A survey that receives data from the user and outputs either C#, JavaScript, or Swift, depending on the answers the user selects._
 
 ## Setup/Installation Requirements
 
 * _Download "programming-survey" folder_
 * _Open folder_
 * _Open index.html in your favorite browser(Chrome)_
+* _You can also view the page at https://mabry1985.github.io/programming-survey_
 
 ## Known Bugs
 
-_No known bugs._
+_No currently known bugs._
 
 ## Support and contact details
 

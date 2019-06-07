@@ -29,6 +29,18 @@ p {
   margin-top:5px;
 }
 
+.jumbotron.swift, .jumbotron.csharp, .jumbotron.javascript, .jumbotron.wtf {
+  margin-left: 80px;
+}
+
+.jumbotron.wtf {
+  margin-top: 160px;
+}
+
+.pink {
+  background-color: pink;
+}
+
 .csharp, .javascript, .swift, .wtf {
   display: none;
   max-width: 500px;
@@ -49,8 +61,16 @@ p {
   margin-left:10px;
 }
 
-.btn{
+.btn {
   margin-bottom: 20px;
+  margin-left: 85px;
+  margin-top: 5px;
+  border: 1px solid rgb(180, 180, 180);
+}
+
+.btn:hover {
+  color: rgba(226, 226, 226, 1);
+  background-color: rgb(180, 180, 180);
 }
 
 .trippy {
@@ -59,13 +79,8 @@ p {
   display: none;
 }
 
-
 @keyframes colorRotate {
   100% {
     -webkit-filter: hue-rotate(360deg);
   }
-}
-
-.pink {
-  background-color: pink;
 }

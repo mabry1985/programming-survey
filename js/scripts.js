@@ -23,15 +23,15 @@ $(document).ready(function() {
       $(".swift").fadeIn();
       $(".javascript, .csharp .main-image").hide();
     } else if (match <= 16) {
-      $(".swift, .javascript, .csharp .main-image").hide();
+      $(".swift, .javascript, .csharp, .main-image").hide();
       $(".wtf").fadeIn();
     } else if (match > 16) {
-      $("nnnnnn.container").hide();
+      $(".container").hide();
       $("body").addClass("pink");
       $(".trippy").fadeIn(5000);
     }
      else {
-      alert("There was an error, please try again.");
+      alert("Please answer all of the questions!.");
     }
     $(".insert").text(name);
   });
