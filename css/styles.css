@@ -1,0 +1,12 @@
+.csharp, .javascript, .swift {
+  display: none;
+}
+
+.form-group {
+  max-width: 30%;
+  margin-left:10px;
+}
+
+.btn{
+  margin-bottom: 20px;
+}
