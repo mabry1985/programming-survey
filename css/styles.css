@@ -12,9 +12,9 @@
 }
 
 
-#trippy {
-  background-image: url(../img/trippy.jpg);
+.trippy {
   animation: colorRotate 3s linear infinite;
+  width: 100%;
 }
 
 
