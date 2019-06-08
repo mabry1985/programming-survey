@@ -27,7 +27,7 @@ $(document).ready(function() {
       $(".wtf").fadeIn();
     } else if (match > 16) {
       $(".container").hide();
-      $("body").addClass("pink");
+      $("body").addClass("black");
       $(".trippy").fadeIn(5000);
     }
      else {
