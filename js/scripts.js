@@ -11,8 +11,6 @@ $(document).ready(function() {
 
     var match = question1 + question2 + question3 + question4 + question5;
 
-    console.log(match);
-
     if (match < 6) {
       $(".csharp").fadeIn(500);
       $(".javascript, .swift, .main-image").hide();
@@ -29,10 +27,18 @@ $(document).ready(function() {
       $(".container").hide();
       $("body").addClass("black");
       $(".trippy").fadeIn(5000);
+      $(".meow").fadeIn(6500);
     }
      else {
       alert("Please answer all of the questions!");
     }
     $(".insert").text(name);
   });
+
+  $(".meow").mouseenter(function() {
+    var meow = document.createElement('audio');
+   meow.setAttribute('src', 'meow.wav');
+   meow.play();
+  });
+
 });
