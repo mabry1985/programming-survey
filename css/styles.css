@@ -1,6 +1,5 @@
 body {
   background-color: rgba(226, 226, 226, 1);
-  overflow: hidden;
 }
 
 h1 {
@@ -40,6 +39,7 @@ p {
 
 .black {
   background-color: black;
+  overflow: hidden;
 }
 
 .csharp, .javascript, .swift, .wtf {
