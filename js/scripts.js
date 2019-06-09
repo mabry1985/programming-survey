@@ -11,8 +11,6 @@ $(document).ready(function() {
 
     var match = question1 + question2 + question3 + question4 + question5;
 
-    console.log(match);
-
     if (match < 6) {
       $(".csharp").fadeIn(500);
       $(".javascript, .swift, .main-image").hide();
@@ -27,12 +25,24 @@ $(document).ready(function() {
       $(".wtf").fadeIn();
     } else if (match > 16) {
       $(".container").hide();
-      $("body").addClass("pink");
+      $("body").addClass("black");
       $(".trippy").fadeIn(5000);
+      $(".meow").fadeIn(6500);
+      var music = document.createElement('audio');
+       music.setAttribute('src', 'audio/sitar.wav');
+       music.loop= true;
+       music.play();
     }
      else {
       alert("Please answer all of the questions!");
     }
     $(".insert").text(name);
   });
+
+  $(".meow").mouseenter(function() {
+    var meow = document.createElement('audio');
+   meow.setAttribute('src', 'audio/meow.wav');
+   meow.play();
+  });
+
 });
