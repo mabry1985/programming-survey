@@ -28,6 +28,9 @@ $(document).ready(function() {
       $("body").addClass("black");
       $(".trippy").fadeIn(5000);
       $(".meow").fadeIn(6500);
+      var music = document.createElement('audio');
+       music.setAttribute('src', 'audio/sitar.wav');
+       music.play();
     }
      else {
       alert("Please answer all of the questions!");
@@ -37,7 +40,7 @@ $(document).ready(function() {
 
   $(".meow").mouseenter(function() {
     var meow = document.createElement('audio');
-   meow.setAttribute('src', 'meow.wav');
+   meow.setAttribute('src', 'audio/meow.wav');
    meow.play();
   });
 
