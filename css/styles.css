@@ -1,5 +1,6 @@
 body {
   background-color: rgba(226, 226, 226, 1);
+  overflow: hidden;
 }
 
 h1 {
@@ -43,7 +44,7 @@ p {
 
 .csharp, .javascript, .swift, .wtf {
   display: none;
-  max-width: 500px;
+  max-width: 600px;
   padding: 5px;
   text-align: center;
 }
@@ -125,7 +126,7 @@ p {
   z-index: 1000;
   width: 200px;
   position: absolute;
-  -webkit-animation: move3 10s, spin 20s; /* Safari 4.0 - 8.0 */
+  -webkit-animation: move3 10s, spin 20s;
   -webkit-animation-direction: alternate;
   -webkit-animation-iteration-count: infinite;
   animation: move3 10s, spin 20s;
@@ -140,7 +141,7 @@ p {
   z-index: 1000;
   width: 200px;
   position: absolute;
-  -webkit-animation: move4 10s, spin 20s; /* Safari 4.0 - 8.0 */
+  -webkit-animation: move4 10s, spin 20s;
   -webkit-animation-direction: alternate;
   -webkit-animation-iteration-count: infinite;
   animation: move4 10s, spin 20s;
@@ -149,7 +150,6 @@ p {
   animation-iteration-count: infinite;
 }
 
-/* Safari 4.0 - 8.0 */
 @-webkit-keyframes move {
   0%   {left: 0px; top: 0px;}
   100% {transform: (360deg); left: 0px; top: 0px;}
@@ -163,7 +163,6 @@ p {
   100% {transform: rotate(-720deg); left:55%; top: 60%; width: 1px;}
 }
 
-/* Safari 4.0 - 8.0 */
 @-webkit-keyframes move2 {
   0%   {left: 0px; top: 0px;}
   100% {transform: (360deg); left: 0px; top: 0px;}
@@ -177,7 +176,6 @@ p {
   100% {transform: rotate(-200deg); left:55%; top: 60%; width: 1px;}
 }
 
-/* Safari 4.0 - 8.0 */
 @-webkit-keyframes move3 {
   0%   {left: 0px; top: 0px;}
   100% {transform: (360deg); left: 0px; top: 0px;}
@@ -191,7 +189,6 @@ p {
   100% {transform: rotate(-600deg); left:55%; top: 60%; width: 1px;}
 }
 
-/* Safari 4.0 - 8.0 */
 @-webkit-keyframes move4 {
   0%   {left: 0px; top: 0px;}
   100% {transform: (360deg); left: 0px; top: 0px;}

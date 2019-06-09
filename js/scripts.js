@@ -30,6 +30,7 @@ $(document).ready(function() {
       $(".meow").fadeIn(6500);
       var music = document.createElement('audio');
        music.setAttribute('src', 'audio/sitar.wav');
+       music.loop= true;
        music.play();
     }
      else {
